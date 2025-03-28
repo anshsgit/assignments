@@ -29,7 +29,7 @@ export default function Timer() {
     }
   }, [minutes]);
 
-  return <div style = {{display: 'flex', alignItems: 'center', height: '100vh'}}>
+  return <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '30%', height: '200px', backgroundColor: 'rgb(29, 47, 79)', color: 'white', fontSize: '32px', borderRadius: '10px', boxShadow: '5px 10px #222222'}}>
     
     <div>
