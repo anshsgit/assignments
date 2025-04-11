@@ -45,7 +45,7 @@ function Form({formData, submit, handleChange}) {
     <div style={style}>
       <form style={{ margin: 'auto', width: '80%' }} onSubmit={submit}>
         <label htmlFor='petName' style={{ textAlign: 'left' }}>Pet Name</label>
-        <input id='petName' type='text' placeholder='Pet Name' name='petName'  onChange={handleChange} />
+        <input id='petName' type='text' placeholder='Pet Name' name='petName' value={formData.petName} onChange={handleChange} />
 
         <label htmlFor='petType' style={{ textAlign: 'left' }}>Pet Type</label>
         <input id='petType' type='text' placeholder='Pet Type' name='petType' value={formData.petType} onChange={handleChange} />
